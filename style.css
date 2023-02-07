@@ -1,0 +1,68 @@
+/*Text formatacion*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 49px;
+  line-height: 56px;
+}
+h1 span {
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+span {
+  color: #FF9900;
+}
+
+#footer a {
+  font-size: 14px;
+  line-height: 28px;
+  color: #FF9900
+}
+
+/*align*/
+
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+}
+
+/*Espaçamentos*/
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+/*Bordas*/
+
+div .line {
+  width: 568px;
+  margin: 0 auto 8px;
+  border: 1px solid #ECEFF2;
+}
+
+/*Posicionamento de elementos*/
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
